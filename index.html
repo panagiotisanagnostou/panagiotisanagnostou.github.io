@@ -1,27 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Under Construction</title>
-    <link rel="stylesheet" href="assets/style.css">
+  <meta charset="UTF-8">
+  <title>Panagiotis Anagnostou - Academic Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Panagiotis Anagnostou, Academic Profile, Machine Learning, Research">
+  <meta name="description" content="Explore the academic profile of Dr. Panagiotis Anagnostou, a researcher specializing in Machine Learning and AI.">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet">
+  <link rel="icon" href="assets/site_logo.png" type="image/png">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Dr. Panagiotis Anagnostou",
+    "jobTitle": "Postdoctoral Researcher",
+    "affiliation": "University of Thessaly",
+    "url": "https://panagiotisanagnostou.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/panagiotis-anagnostou-171980104/",
+      "https://scholar.google.com/citations?user=4L9aeEMAAAAJ&hl=en",
+      "https://orcid.org/0000-0002-4775-9220"
+    ],
+    "alumniOf": "University of Patras",
+    "knowsAbout": ["Computer Engineering", "Machine Learning", "Big Data", "Neural Networks"]
+  }
+  </script>
 </head>
 <body>
-    <div id="construction-container">
-    	<h4><a href="https://github.com/panagiotisanagnostou">Panagiotis Anagnostou</a></h4>
-        <h1>My Website is Under Construction</h1>
-        <p>I'm working hard to finish the development of this site. Sign up below to receive updates and be notified when you can visit!</p>
-        
-        <!-- Start of integrated Form -->
-        <form id="notify-form" action="https://formspree.io/f/xwkgnjer" method="POST">
-            <input type="email" name="email" placeholder="Your email" required>
-            <textarea name="message" placeholder="Your message"></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <!-- End of integrated Form -->
-        
-        <p id="confirmation-message"></p>
-    </div>
-    <script src="assets/script.js"></script>
+	<!-- Navigation Bar -->
+	<header class="bg-dark py-1">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white py-3">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="assets/site_logo.png" alt="Website Logo" width="40" style="vertical-align:middle;">
+					Panagiotis Anagnostou</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#research">Research Interests</a>
+						</li>
+						<!-- <li class="nav-item">
+							<a class="nav-link" href="#publications">Publications</a>
+						</li> -->
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+		<div class="profile-container">
+			<img src="assets/profile_img.jpg" alt="Panagiotis Anagnostou" class="img-fluid profile-image" width="200" height="200">
+			<div>
+				<h1>Dr. Panagiotis Anagnostou</h1>
+				<h3>Postdoctoral Researcher</h3>
+				<p>Affiliation: <strong>University of Thessaly</strong>
+				<br>Alumnus of: <strong>University of Patras</strong></p>
+				<p>
+					<a href="https://panagiotisanagnostou.github.io/" target="_blank"><img src="assets/site_logo.png" alt="Website" width="24" style="vertical-align:middle;"></a> |
+					<a href="https://orcid.org/0000-0002-4775-9220" target="_blank"><img src="https://orcid.org/assets/vectors/orcid.logo.icon.svg" alt="ORCID" width="23" style="vertical-align:middle;"></a> |
+					<a href="https://scholar.google.com/citations?user=4L9aeEMAAAAJ&hl=en" target="_blank"><img src="https://img.icons8.com/color/48/000000/google-scholar.png" alt="Google Scholar" width="24" style="vertical-align:middle;"></a> |
+					<a href="https://www.linkedin.com/in/panagiotis-anagnostou-171980104/" target="_blank"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" width="24" style="vertical-align:middle;"></a>
+			  	</p>
+			</div>
+		</div>
+
+		<div class="container mt-4">
+			<h2 id="text-center text-primary">About</h2>
+			<p>Panagiotis Anagnostou is a Postdoctoral Researcher at the University of Thessaly in the Department of Computer Science and Biomedical Informatics. His current research focuses on developing advanced machine learning algorithms for big data applications, supervised by Dr. Tasoulis Sotiris.
+			<p>He completed his Ph.D. at the University of Thessaly in 2023, where his dissertation explored the Design and Implementation of Machine Learning Algorithms in Big Biomedical Data. Prior to that, he earned a Bachelor's with an Integrated Master in Computer Engineering and Informatics from the University of Patras, where his thesis centered on Knowledge Mining and Visualization of Molecular Biology Networks.</p>
+			<p>Dr. Anagnostou has contributed to several impactful research projects, including the development of personalized AI-driven rehabilitation strategies as part of the European Union-funded PREPARE project, and the design of machine learning models for vessel transportation predictions during his tenure at Signal Ocean SMPC. He has also been actively involved in improving ICT research infrastructures for big data processing at the University of Thessaly.</p>
+			<p>His work has been featured in numerous publications, such as Boosting Neural Network Performance for scRNA-seq Data (BioData Mining, 2024) and Enhancing Human Health Prediction (Applied AI, 2021). He is also a co-author of the Hierarchical Clustering-Ensemble Regressor methodology published in Springer in 2024.</p>
+			<p></p>
+			<hr>
+		</div>
+	</div>
+
+	<div class="container mt-4">
+		<h2 id="research">Research Interests</h2>
+		<ul>
+			<li>Deep Learning for Natural Language Processing</li>
+			<li>AI-driven Healthcare Solutions</li>
+			<li>Optimization in Machine Learning Models</li>
+		</ul>
+		<hr>
+	</div>
+
+	<!-- <div class="container mt-4">
+		<h2 id="publications">Publications</h2>
+		<p>Explore my recent publications on <a href="publications.html">this page</a>.</p>
+		<hr>
+	</div> -->
+
+	<div class="container mt-4">
+		<h2 class="text-center">Teaching Experience</h2>
+		<p class="text-center text-secondary">Courses I have taught as an instructor and teaching assistant.</p>
+		<ul class="list-group">
+			<li class="list-group-item">
+				<strong>Microprocessors (DIB_U_206)</strong> – Fall 2024  
+			</li>
+			<li class="list-group-item">
+				<strong>Internet Application Technologies (DIB_U_182)</strong> – Fall 2024  
+			</li>
+			<li class="list-group-item">
+				<strong>Embedded Computer Systems in Biomedical Engineering (DIB_U_211)</strong> – Spring 2024  
+			</li>
+			<li class="list-group-item">
+				<strong>Ubiquitous Computing Applications Programming (DIB_U_235)</strong> – Spring 2024  
+			</li>
+		</ul>
+		<hr>
+	</div>
+
+	<div class="container mt-4">
+		<div id="contact">
+			<h1>Contact Me</h1>
+		<p>If you have any questions, collaboration ideas, or inquiries, feel free to reach out to me through the form below!</p>
+
+			<!-- Start of integrated Form -->
+			<form id="notify-form" action="https://formspree.io/f/xwkgnjer" method="POST">
+				<input type="email" name="email" placeholder="Your email" required>
+				<textarea name="message" placeholder="Your message"></textarea>
+				<button type="submit">Send</button>
+			</form>
+			<!-- End of integrated Form -->
+
+			<p id="confirmation-message"></p>
+			<script src="assets/script.js"></script>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="bg-dark text-white text-center py-3">
+		<p>&copy; 2025 Panagiotis Anagnostou 
+			<!-- | <a href="#" class="text-white">Privacy Policy</a> -->
+		</p>
+	</footer>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
