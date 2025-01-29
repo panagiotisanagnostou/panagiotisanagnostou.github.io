@@ -110,7 +110,6 @@ a:hover {
 	 background-color: hsl(211, 100%, 25%);
 }
 
-
 @media (max-width: 300px) {
 	 body, html {
 		  display: block;
